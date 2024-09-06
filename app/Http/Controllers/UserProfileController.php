@@ -7,7 +7,11 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 
-class Controller extends BaseController
+class UserProfileController extends BaseController
 {
-    use AuthorizesRequests, ValidatesRequests;
+    public function show()
+    {
+        echo "Nama saya Fitria Ramadhani Prihandiva";
+        echo "SIB 3D";
+    }
 }
